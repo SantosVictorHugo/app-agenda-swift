@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b0m-KM-rZ6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="agendaIcon2" translatesAutoresizingMaskIntoConstraints="NO" id="jP4-mz-oG4">
+                                <rect key="frame" x="96" y="241" width="182" height="230"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2078355304" green="0.54947919670000001" blue="0.60381443550000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jP4-mz-oG4" firstAttribute="leading" secondItem="Va9-WD-kb6" secondAttribute="leading" constant="96" id="34q-ao-XF5"/>
+                            <constraint firstItem="Va9-WD-kb6" firstAttribute="trailing" secondItem="jP4-mz-oG4" secondAttribute="trailing" constant="97" id="Dxp-Ky-hUZ"/>
+                            <constraint firstItem="jP4-mz-oG4" firstAttribute="top" secondItem="Va9-WD-kb6" secondAttribute="top" constant="168" id="MRh-xO-xWc"/>
+                            <constraint firstItem="Va9-WD-kb6" firstAttribute="bottom" secondItem="jP4-mz-oG4" secondAttribute="bottom" constant="336" id="SKV-SD-Zna"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Va9-WD-kb6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="agendaIcon2" width="512" height="512"/>
+    </resources>
+</document>
